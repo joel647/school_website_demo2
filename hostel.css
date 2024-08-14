@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #001b56cd;
+}
+
+nav{
+    background-color: #001a56d6;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    color: #fff;
+    position: sticky;
+    padding: 5px;
+    top: 0;
+    z-index: 1;
+}
+
+/* nav img */
+nav img{
+    width: 70px;
+    border-radius: 24px;
+    margin-left:50px;
+}
+
+/* nav list */
+ul{
+    width: 800px;
+    margin-left: -60px;
+    display: flex;
+    padding: 22px ; 
+    justify-content: space-around;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* nav list link styling */
+a{
+    text-decoration:none;
+    font-size: 15px;
+    margin-right: 50px;
+    width: 245px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+    padding-left: 17px;
+    padding: 4px;
+}
+    
+ nav ul a:hover{
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    border-radius: 8px;
+} 
+/* .dropdow{
+    margin-left: 3000px;
+    font-size: 20px;
+    
+}  */
+.dropdown{
+    cursor: pointer;
+    background-color: #002856a8;
+    border: none;
+    background-color: #001a56;
+    padding-top:  -30px; 
+    font-size: 15px;  
+    color: #fff; 
+    font-family: serif;
+    margin-left:100px;
+    align-items: center;
+    
+/*  */
+}
+
+.dropdown:hover{
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+  border-radius: 8px;
+}
+
+.dropdown-content{
+    display: none;  
+    position: absolute;
+    width:297px;
+    height: 520px;                                          
+    margin-left: -233px;
+    margin-top:30px;
+    background: linear-gradient(180deg,#001a56fa, #5c78b9fa,#001a56fa) ;
+    position: fixed;
+}
+
+.dropdown-content a:hover{
+    background-color: rgba(0, 0, 60, 0.333);
+
+}
+
+.dropdown-content a{
+ display: grid;
+ row-gap: 20px;
+ padding: 20px;
+ gap: 40px;
+ margin: 10px;
+ width: 275px;
+}
+.dropdown-content a:focus-within{
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    border-radius: 8px ;
+}
+
+.dropdown:focus-within .dropdown-content {
+    display: block;
+    
+}
+
+button{
+    left: 0;
+    margin: 30px ;
+    margin-right: 200px;
+    padding: 7px;
+    width: 120px;
+    border-radius: 7px;
+    border: none; 
+    background-color: #010ecbf8;
+    color: #fff;
+    border: 2px solid rgb(8, 29, 91) ;
+    padding-top: 30px;    
+    border:1px solid red; 
+
+}
+
+h2{
+    align-items: center;
+    text-align: center;
+    margin-left:40px;
+    letter-spacing: 9px;
+    font-size: 28px;
+    margin-top: 40px;
+    font-style: italic;
+    padding: 10px;
+    color: #001b568b;
+}
+
+.form{
+    width: 600px;
+    height:300px;
+    border: 5px solid #001b56b3;
+    margin-left: 28%;
+    padding: 45px;
+    margin-bottom: 10px;
+    margin-top:40px;
+    border-radius: 15px 15px;
+    background-image: url(/img/_White\ Modern\ Recruitment\ Announcement\ Facebook\ Post.png) ;
+    mask-image: linear-gradient(to right, white, transparent);
+    background-position:0cqmax;
+    background-size: cover;
+    background-repeat: no-repeat;       
+
+}
+
+.form button{
+    margin-top  : -2px;
+    margin-left: 200px;
+    color: white;
+    background-color:#041366;
+    width: 150px;
+    font-size: 18px;
+
+} 
+
+.form button:hover{
+    background-color: #001a56e0;
+    border: 3px solid  #ffffff7b; 
+    border-left: 3px solid#ffffff7e;
+    border-right: 3px solid#ffffffa0;
+}
+
+input{
+    width: 350px;
+    height: 30px;
+    gap: 50px;
+    outline: none;
+    background-color: #d2d7e099;
+    border-radius: 8px;
+}
+
+
+
+button{
+     /* left: 0; */
+     margin: 20px 150px ;
+     padding: 7px;
+     width: 120px;
+     border-radius: 7px;
+     border: none; 
+     background-color: #010ecbf8;
+     color: #fff;
+     border: 2px solid rgb(8, 29, 91) ;
+     padding-top: -45px;    
+}
+
+
+    
+label{
+    font-size: 19px;
+    /* color: #fff; */
+    color:  #02040a ;
+    padding: 17px;
+    margin-top: 100px;
+    font-weight:lighter;
+    font-family: arial sans-serif helvetica;
+    
+
+}
+    
+.formouput{
+    width: 500px;
+    border: 5px solid #001b56b3;
+    margin-left: 25%;
+    padding: 45px;
+    margin-bottom: 10px;
+    margin-top:20px;
+    border-radius: 15px 15px;
+    background: linear-gradient(195deg,#06112dec, #5c78b9fa,#001a56fa,#001a565f) ;
+
+}
+
+.formouput p{
+    align-items: center;
+    text-align: center;
+    margin-right: 130px;
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-style: italic;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: -10px;
+}
+
